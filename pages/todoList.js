@@ -1,18 +1,3 @@
-// import Cards from "../components/Cards";
-
-// export default function Home() {
-//   return (
-//     <>
-
-//       {/* <div className="container">
-//         <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-neutral-900 to-slate-900">
-//           <Cards></Cards>
-//         </div>
-//       </div> */}
-//     </>
-//   );
-// }
-
 import { Transition } from "@headlessui/react";
 import { useState } from "react";
 import Button from "../components/Button";
