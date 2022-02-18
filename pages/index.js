@@ -138,7 +138,7 @@ export default function todoList() {
           <input
             type="text"
             maxLength={21}
-            placeholder="Hari ini mau ngapain?"
+            placeholder="Your activity"
             value={activity}
             className={`placeholder:font-mono placeholder:text-rose-400 focus:outline-none focus:ring-1 focus:ring-rose-300 focus:accent-rose-400 focus:border-rose-400 transition duration-500 shadow-lg shadow-rose-600 text-rose-500 font-mono px-2 rounded-lg ${
               edit.id ? "h-16" : "h-8"
