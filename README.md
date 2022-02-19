@@ -5,8 +5,10 @@
 1. Tampilan depan aplikasi
 
    ![Cara download 1](public/assets/rose-theme1.png)
+
+   <!-- prettier-ignore -->
    <div align="center">
-   [intip](https://your-activity.vercel.app)
+    <a href="https://your-activity.vercel.app">Intip Aplikasi</a>
    <div>
 
 ## Teknologi yang di gunakan
