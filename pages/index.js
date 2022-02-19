@@ -17,7 +17,7 @@ import { Transition } from "@headlessui/react";
 import { useState } from "react";
 import Button from "../components/Button";
 
-export default function todoList() {
+export default function Home() {
   const [activity, setActivity] = useState("");
   const [todos, setTodos] = useState([]);
   const [edit, setEdit] = useState({});
