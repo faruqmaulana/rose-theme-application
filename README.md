@@ -2,8 +2,12 @@
 
 ## Tampilan Aplikasi
 
-[intip](https://your-activity.vercel.app)
-![Cara download 1](public/assets/rose-theme1.png)
+1. Tampilan depan aplikasi
+
+   ![Cara download 1](public/assets/rose-theme1.png)
+   <div align="center">
+   [intip](https://your-activity.vercel.app)
+   <div>
 
 ## Teknologi yang di gunakan
 
