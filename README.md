@@ -21,7 +21,7 @@
 
 ### Artikel
 
-- [Website MDN [Java Script]](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Website MDN (Java Script)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ### Video
 
