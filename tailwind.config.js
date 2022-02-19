@@ -8,6 +8,23 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat"],
       },
+      keyframes: {
+        "balon-small": {
+          "0%": { opacity: "0", top: "150px" },
+          "75%": { opacity: "1", top: "50px" },
+          "100%": { opacity: "0", top: "0px" },
+        },
+        "balon-medium": {
+          "0%": { opacity: "0", top: "200px" },
+          "75%": { opacity: "1", top: "50px" },
+          "100%": { opacity: "0", top: "0px" },
+        },
+        "balon-lg": {
+          "0%": { opacity: "0", top: "93%" },
+          "75%": { opacity: "1", top: "66" },
+          "100%": { opacity: "0", top: "65%" },
+        },
+      },
     },
     container: {
       padding: "2rem",
