@@ -115,7 +115,7 @@ export default function Home() {
   if (updatedSucess) {
     setTimeout(() => {
       setUpdatedSuccess(false);
-    }, 4700);
+    }, 4600);
   }
 
   const buttonStyle =
