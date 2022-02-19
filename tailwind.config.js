@@ -22,7 +22,7 @@ module.exports = {
         "balon-lg": {
           "0%": { opacity: "0", top: "93%" },
           "75%": { opacity: "1", top: "66" },
-          "100%": { opacity: "0", top: "65%" },
+          "100%": { opacity: "0", top: "70%" },
         },
       },
     },
