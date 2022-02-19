@@ -1,29 +1,23 @@
-# Pengenalan HTML CSS
+# ROSE THEME APPLICATION
 
-## Cara Download
+## Tampilan Aplikasi
 
-1. Klik tombol "Download ZIP" seperti di bawah.
+1. Tampilan depan aplikasi
+
    ![Cara download 1](public/assets/rose-theme1.png)
-   ![Cara download 1](public/assets/rose-theme2.png)
-   ![Cara download 1](public/assets/rose-theme3.png)
-2. Ekstrak file zip yg sudah kalian download.
 
-## Referensi Belajar
+## Teknologi yang di gunakan
+
+- [NextJs](https://nextjs.org/)
+- [Tailwindcss](https://tailwindcss.com//)
+- [HeadlessUI](https://headlessui.dev/)
+
+## Referensi
 
 ### Artikel
 
 - [Website MDN [HTML]](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Website MDN [CSS]](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
 
 ### Video
 
-- [Playlist HTML Web Progamming UNPAS](https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F)
-- [Playlist CSS Dasar Web Progamming UNPAS](https://www.youtube.com/playlist?list=PLFIM0718LjIUBrbm6Gdh6k7ZUvPIAZm7p)
-- [Playlist CSS Layouting Web Progamming UNPAS](https://www.youtube.com/playlist?list=PLFIM0718LjIUu4Ju9GUL5zpLcuq08TKYr)
-
-## Roadmap Web Developer
-
-- [Perbedaan Frontend & Backend](https://glints.com/id/lowongan/perbedaan-front-end-dan-back-end)
-- [Frontend Developer](https://roadmap.sh/frontend)
-- [Backend Developer](https://roadmap.sh/backend)
+- [The final project (todo list app)](https://www.youtube.com/watch?v=JS5w4rUbjQE&t=12766s)
