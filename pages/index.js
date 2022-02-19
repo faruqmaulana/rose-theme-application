@@ -126,7 +126,7 @@ export default function Home() {
       <div className="bg-rose-500 flex justify-center ">
         <div className="container  flex flex-col min-h-screen justify-center items-center">
           <h1
-            className={`font-mono font-bold text-2xl w-full text-center py-3 bg-rose-400 rounded-lg ${
+            className={`font-mono font-bold text-2xl m:w-6/12 md:w-5/12 lg:w-3/12 w-full text-center py-3 bg-rose-400 rounded-lg ${
               msgIsShow ? "mb-0" : "mb-6"
             }`}
           >
