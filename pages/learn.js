@@ -1,4 +1,4 @@
-import Button from "./komponen";
+import Button from "./omponen";
 
 export default function learn() {
   return (
