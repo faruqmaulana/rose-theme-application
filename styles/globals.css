@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: black;
-}
-
 .btn {
   background-color: #008b8b;
   padding: 5px 10px;
