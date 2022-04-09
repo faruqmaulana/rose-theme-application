@@ -1,18 +1,3 @@
-// import Cards from "../components/Cards";
-
-// export default function Home() {
-//   return (
-//     <>
-
-//       {/* <div className="container">
-//         <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-neutral-900 to-slate-900">
-//           <Cards></Cards>
-//         </div>
-//       </div> */}
-//     </>
-//   );
-// }
-
 import { Transition } from "@headlessui/react";
 import { useState } from "react";
 import Button from "../components/Button";
@@ -123,10 +108,10 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-rose-500 flex justify-center ">
-        <div className="container  flex flex-col min-h-screen justify-center items-center">
+      <div className="flex justify-center bg-rose-500 ">
+        <div className="container  flex min-h-screen flex-col items-center justify-center">
           <h1
-            className={`font-mono font-bold text-2xl m:w-6/12 md:w-5/12 lg:w-3/12 w-full text-center py-3 bg-rose-400 rounded-lg ${
+            className={`m:w-6/12 w-full rounded-lg bg-rose-400 py-3 text-center font-mono text-2xl font-bold md:w-5/12 lg:w-3/12 ${
               msgIsShow ? "mb-0" : "mb-6"
             }`}
           >
@@ -134,7 +119,7 @@ export default function Home() {
           </h1>
           {msg && (
             <Transition
-              className="flex flex-row justify-center items-center bg-rose-300 mt-6 w-12/12 p-2 rounded-lg font-mono font-medium"
+              className="w-12/12 mt-6 flex flex-row items-center justify-center rounded-lg bg-rose-300 p-2 font-mono font-medium"
               appear={true}
               show={msgIsShow}
               enter="transition duration-500"
@@ -160,7 +145,7 @@ export default function Home() {
               maxLength={21}
               placeholder="Your activity"
               value={activity}
-              className={`placeholder:font-mono placeholder:text-rose-400 focus:outline-none focus:ring-1 focus:ring-rose-300 focus:accent-rose-400 focus:border-rose-400 transition duration-500 shadow-lg shadow-rose-600 text-rose-500 font-mono px-2 rounded-lg ${
+              className={`rounded-lg px-2 font-mono text-rose-500 shadow-lg shadow-rose-600 transition duration-500 placeholder:font-mono placeholder:text-rose-400 focus:border-rose-400 focus:accent-rose-400 focus:outline-none focus:ring-1 focus:ring-rose-300 ${
                 edit.id ? "h-16" : "h-8"
               }`}
               onChange={(e) => {
@@ -183,7 +168,7 @@ export default function Home() {
                   leaveTo="transform scale-95 opcaity-0"
                 >
                   <button
-                    className="bg-rose-400 px-1 w-full rounded-md font-mono fonst-semibold h-8 shadow-lg focus:outline-none focus:ring-2 ring-1 ring-rose-300 transition duration-500"
+                    className="fonst-semibold h-8 w-full rounded-md bg-rose-400 px-1 font-mono shadow-lg ring-1 ring-rose-300 transition duration-500 focus:outline-none focus:ring-2"
                     onClick={cancelEditHandler}
                   >
                     Batal Edit
@@ -193,7 +178,7 @@ export default function Home() {
             </div>
           </form>
           {todos.length > 0 ? (
-            <ul className="flex flex-col items-start mt-4">
+            <ul className="mt-4 flex flex-col items-start">
               {todos.map((todo) => {
                 return (
                   <Transition
@@ -209,7 +194,7 @@ export default function Home() {
                     leaveTo="transform scale-95 opcaity-0"
                   >
                     <li
-                      className="flex flex-row items-center font-mono font-bold w-60 p-1 bg-rose-200 rounded-md shadow-lg mb-2 mr-1"
+                      className="mb-2 mr-1 flex w-60 flex-row items-center rounded-md bg-rose-200 p-1 font-mono font-bold shadow-lg"
                       style={{
                         textDecoration: `${
                           todo.done == true ? "line-through" : ""
@@ -223,7 +208,7 @@ export default function Home() {
                       {todo.activity}
                       <input
                         type="checkbox"
-                        className="ml-auto mr-1 rounded-lg text-rose-500 focus:ring-0 focus:border-rose-500 focus:accent-rose-500 transition duration-500"
+                        className="ml-auto mr-1 rounded-lg text-rose-500 transition duration-500 focus:border-rose-500 focus:accent-rose-500 focus:ring-0"
                         onChange={doneTodoHandler.bind(this, todo)}
                       />
                     </li>
@@ -252,7 +237,7 @@ export default function Home() {
               })}
             </ul>
           ) : (
-            <h1 className="font-mono font-medium text-md px-3 py-2 bg-rose-300 mt-4 rounded-lg animate-pulse">
+            <h1 className="text-md mt-4 animate-pulse rounded-lg bg-rose-300 px-3 py-2 font-mono font-medium">
               Belum ada aktivitas
             </h1>
           )}

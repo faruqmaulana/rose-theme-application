@@ -1,15 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.btn {
-  background-color: #008b8b;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: white;
-  border: none;
-}
-
-.btn:hover {
-  background-color: #019e9e;
-}
